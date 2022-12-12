@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -7,69 +7,222 @@
 }
 
 
-.d-flex{
+.d-flex {
   display: flex;
 }
-.justify-space-between{
+
+.justify-space-between {
   justify-content: space-between;
 }
 
-.bold-weight{
+.bold-weight {
   font-weight: bold;
 }
-#header, #main, #footer{
+
+#header,
+#main,
+#footer {
   padding: 0;
   margin: 0;
   max-width: 1500px;
 }
 
+.text-upper {
+  text-transform: uppercase;
+}
 
 @media (min-width: 1200px){
-  .under-nav-block{
+
+}
+
+  .under-nav-block {
     opacity: 85%;
     padding: 10px;
     width: 100%;
     background-color: rgb(204, 235, 243);
     height: 80px;
   }
-  #main-logo{
+
+  #main-logo {
     display: block;
     width: 50px;
     height: 50px;
   }
-  .live-forum-button{
+
+  .live-forum-button {
     padding: 10px;
     display: block;
     height: 40px;
     width: 150px;
     margin-top: 10px;
   }
-.live-forum-button i{
-font-size: 20px;
-}
-#live-chat{
-  color: rgb(24, 221, 73);
-}
-#forum{
-  color: rgb(132, 146, 186);
-}
 
-  .live-forum-button:hover{
+  .live-forum-button i {
+    font-size: 16px;
+  }
+
+  #live-chat {
+    color: rgb(24, 221, 73);
+  }
+
+  #forum {
+    color: rgb(132, 146, 186);
+  }
+
+  .live-forum-button:hover {
     border-radius: 10px;
     background-color: rgb(164, 184, 234);
   }
-  .live-forum-button .text-lf{
+
+  .live-forum-button .text-lf {
     color: red;
     font-size: 18px;
     margin-left: 10px;
   }
-  #logo-block{
-    margin-bottom: 2  0px;
+
+  #logo-block {
+    margin-bottom: 2 0px;
     margin-left: 200px;
     padding: 10px;
   }
-  #authentication-block{
+
+  #authentication-block {
     margin-right: 200px;
   }
-}
 
+  #authentication-block a i {
+    color: rgb(255, 255, 255);
+  }
+
+  #authentication-block a {
+    font-size: 14px;
+  }
+
+  #authentication-block a+a {
+    margin-left: 5px;
+  }
+
+  .social-networks {
+    text-align: right;
+  }
+
+  .social-networks a #twitter-ic {
+    color: rgba(51, 119, 255, 0.807);
+  }
+
+  .social-networks a #facebook-ic {
+    color: blue;
+  }
+
+  .social-networks a #g-plus-ic {
+    color: red;
+  }
+
+  .bridge-block {
+    background-image: url(../media/images/nyc-bridge.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+  }
+
+  .blur-for-bridge {
+    backdrop-filter: blur(4px);
+    height: 100%;
+    width: 100%;
+  }
+
+  .nav {
+    background-color: #FFF;
+    width: 1170PX;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    padding: 0 30px;
+    padding-top: 10px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+  }
+
+  .nav a {
+    text-decoration: none;
+    display: block;
+    width: 130px;
+    height: 30px;
+  }
+
+  .nav a:hover {
+    background-color: rgb(63, 229, 113);
+    border-radius: 15px;
+    color: #FFF;
+  }
+
+  #main-title {
+    color: #FFF;
+  }
+
+  .main-title-block {
+    text-align: center;
+    padding-top: 120px;
+    margin-bottom: 30px;
+  }
+
+  .green-button {
+    color: #FFF;
+    border-radius: 15px;
+    border: none;
+    display: block;
+    height: 30px;
+    width: 130px;
+    text-align: center;
+    background-color: rgb(63, 229, 113);
+  }
+
+  .blue-button {
+    color: #FFF;
+    border-radius: 15px;
+    border: none;
+    background-color: #0d6efd;
+    display: block;
+    height: 30px;
+    width: 130px;
+    text-align: center;
+  }
+  .buttons-bridge-container{
+    padding: 0 40%;
+  }
+
+  #OR {
+    font-size: 18px;
+    color: #FFF;
+    font-weight: bold;
+    margin: 0 15px;
+  }
+
+  .advantages-container{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(210, 221, 255);
+  }
+  .advantages-item{
+      padding-top: 40px;
+    text-align: center;
+    margin: 30px auto;
+    display: block;
+    height: 240px;
+    width: 200px;
+  }
+  .advantages-item i{
+    color: #0d6efd;
+    font-size: 60px;
+    margin-bottom: 15px;
+  }
+  .advantages-item h5{
+    color: #0d6efd;
+    margin-bottom: 15px;
+  }
+  .advantages-item p{
+    font-size: 13px;
+  }
+  
